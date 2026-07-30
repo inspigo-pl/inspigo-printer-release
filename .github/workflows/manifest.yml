@@ -30,7 +30,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # `ref: main` jest konieczne. Przy zdarzeniu `release` domyślny checkout
+      # ustawia ODŁĄCZONY HEAD na znaczniku wydania, a wtedy `git push` kończy
+      # się „You are not currently on a branch" — po udanym commicie, więc
+      # przebieg wygląda na działający aż do ostatniej linii.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Składam manifest z najnowszego wydania
         env:
@@ -74,4 +80,7 @@ jobs:
           fi
 
           git commit -m "chore: manifest najnowszego wydania"
-          git push
+
+          # Gałąź podana wprost: gdyby checkout kiedykolwiek znowu wylądował
+          # w odłączonym HEAD, push ma nadal wiedzieć, dokąd pisać.
+          git push origin HEAD:main
