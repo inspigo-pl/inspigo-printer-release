@@ -1,0 +1,22 @@
+{
+  "version": "0.1.2",
+  "pub_date": "2026-07-30T14:44:50Z",
+  "platforms": {
+    "linux-aarch64": {
+      "url": "https://github.com/inspigo-pl/inspigo-printer-release/releases/download/v0.1.2/InspigoPrinter_0.1.2_aarch64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHhxOXNSaDhNS3FDbWxzVU1CVnZsd0tudHZTTlBUemlDak5ZSitWQkMvdUhhWmhVMTExUFgxbVJHVXAyZjMzTFBGSFZnRE1oSmZvSWNUak5zYTFlZWpnT0UxTHc5Vmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NDIyNDQwCWZpbGU6SW5zcGlnb1ByaW50ZXJfMC4xLjJfYWFyY2g2NC5BcHBJbWFnZQpqaDhEcGVLMnFDWTVVQVRnV2RDdFErYkpEZkRxdWJVM2hqbHdPVlRqVXVwZDVNRnhiWDZDWXhaVzExWjAyblAyWDBJMVZFWlJqeVdBdFVsL2Mwc3hCUT09Cg=="
+    },
+    "linux-x86_64": {
+      "url": "https://github.com/inspigo-pl/inspigo-printer-release/releases/download/v0.1.2/InspigoPrinter_0.1.2_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHhxOXNSaDhNS2dzUCsrMmRFVnJ0R0FOR3gxaWNxL2pJZVFtVnBERzdUaVRUWFBZa3dBcjNidUp5NWxHV0E0b3FxL1h5eWtzUFNIT3ZGeU1FSUNwSURFZCtwU0FEaXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NDIyNDg0CWZpbGU6SW5zcGlnb1ByaW50ZXJfMC4xLjJfYW1kNjQuQXBwSW1hZ2UKNHdWRndjTS91bDI3cFNCT1I3SWkwNnV4ZnNVYjRDT2gvQ3AxcHRocm1XaEpwYXdRTVEzVmNSMEFObmtMRDRxWi9DSlhJcjJ2WFN1NjJuZ1NHellrQkE9PQo="
+    },
+    "windows-x86_64": {
+      "url": "https://github.com/inspigo-pl/inspigo-printer-release/releases/download/v0.1.2/InspigoPrinter_0.1.2_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHhxOXNSaDhNS2ptcHNaY3JSbXFaSTlaejUzK3BodTF6Tnc1UkdSRGhHT2YxRjV6VDVqcFhmNEdpZVVUSUhWdWEweW9FV0pmYWdKTm1pQVU3UmF1VlR5VEtUSEhtSUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NDIyNjI3CWZpbGU6SW5zcGlnb1ByaW50ZXJfMC4xLjJfeDY0LXNldHVwLmV4ZQppcWRYR28xZEp4VmcxcUtVdkZhMW55OGF2dUNFZ0lkd3E5ZTZYT1N2eDlsQUpmVXc3K0UxeVdydTM3dnJWeFo4bVRHenJzYU03TS9Eck1XS1YwWmpDQT09Cg=="
+    },
+    "darwin-aarch64": {
+      "url": "https://github.com/inspigo-pl/inspigo-printer-release/releases/download/v0.1.2/InspigoPrinter_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHhxOXNSaDhNS3BMNFpuRHpuTTByWm1RUjVBYWxBc3FIVHhhTlQ1MFA3N2VHN0p0cHZqdVhkdm1mUENDN1NzL2d6c1RWelJyWXUvR05FMlVIYmFGSm9qNzNzd2FvUGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NDIyMjEyCWZpbGU6SW5zcGlnb1ByaW50ZXIuYXBwLnRhci5negpRcmFnc1M5VG16aGlNRVdadTMrejdIaEZkcURnWGxYZWhsZUl6WTBJVlN6UFhjRVM0QzN6eUVqajhhbXo1UCt4Y0lhOHRxZk96NzE3UnFCUzFJcGtEdz09Cg=="
+    }
+  }
+}
