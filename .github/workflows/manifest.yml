@@ -59,13 +59,19 @@ jobs:
         run: |
           set -euo pipefail
 
-          if git diff --quiet -- manifest.json; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # `git add` MUSI być przed sprawdzeniem. `git diff` porównuje drzewo
+          # robocze z indeksem i o pliku NIEŚLEDZONYM nic nie wie — przy
+          # pierwszym uruchomieniu zgłaszał brak zmian i manifest nigdy nie
+          # powstawał, mimo zielonego przebiegu.
+          git add manifest.json
+
+          if git diff --cached --quiet; then
             echo "Manifest bez zmian."
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add manifest.json
           git commit -m "chore: manifest najnowszego wydania"
           git push
